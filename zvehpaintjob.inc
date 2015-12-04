@@ -13,6 +13,9 @@
 #pragma library z_vehicle_paintjob
 
 
+#define MAX_PAINTJOB_LEVEL 3
+
+
 enum e_Paintjob_Info {
 	e_pjModel,
 	e_pjLevel,
