@@ -6,3 +6,9 @@ Vehicle paintjob info system
 ```Pawn
 GetVehicleModelPaintjobLevel(model);
 ```
+
+# Provides constants
+
+```Pawn
+MAX_PAINTJOB_LEVEL (3)
+```
