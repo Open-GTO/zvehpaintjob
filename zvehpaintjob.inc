@@ -13,6 +13,8 @@
 #pragma library z_vehicle_paintjob
 
 
+#define MAX_PAINTJOB_LEVEL 3
+
 static gPaintjobs[212 char] = {
 	0, // 400
 	0, // 401
