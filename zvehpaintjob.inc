@@ -15,7 +15,7 @@
 
 #define MAX_PAINTJOB_LEVEL 3
 
-static gPaintjobs[212 char] = {
+static gPaintjobs[212 + 1 char] = {
 	0, // 400
 	0, // 401
 	0, // 402
@@ -236,5 +236,5 @@ stock GetVehicleModelPaintjobLevel(model)
 		return 0;
 	}
 
-	return gPaintjobs[model - 400];
+	return gPaintjobs{model - 400};
 }
