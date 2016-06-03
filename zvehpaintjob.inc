@@ -10,7 +10,6 @@
 #endif
 
 #define _z_vehicle_paintjob_included
-#pragma library z_vehicle_paintjob
 
 
 #define MAX_PAINTJOB_LEVEL 3
